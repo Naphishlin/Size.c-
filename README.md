@@ -1,2 +1,10 @@
-# Size.c-
-Here you can find the program of c++ to find the size of int float char and double in your system 
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"size of char:"<< sizeof(char)<<"byte"<<endl;
+	cout<<"size of int:"<< sizeof(int)<<"bytes"<<endl;
+	cout<<"size of float:"<< sizeof(float)<<"bytes"<<endl;
+	cout<<"size of double:"<< sizeof(double)<<"bytes"<<endl;
+	return 0;
+}
